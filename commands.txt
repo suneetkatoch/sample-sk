@@ -1,0 +1,8 @@
+create repo in git hub
+->repo name 
+->discription
+-> public
+commands
+git pull=used to pull from github
+git status=to get status 
+git log=history of commits
