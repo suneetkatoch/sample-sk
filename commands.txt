@@ -6,3 +6,33 @@ commands
 git pull=used to pull from github
 git status=to get status 
 git log=history of commits
+git difftool head=tells diffrence between old code and new code
+
+…or create a new repository on the command line
+echo "# sample-sk" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/suneetkatoch/sample-sk.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/suneetkatoch/sample-sk.git
+git branch -M main
+git push -u origin main
+
+
+===============advance commands=====================
+uncommited changes
+git checkout -- filename = undo the work that you have done
+git checkout -- . =undo all files
+commited changes
+git revert commit id     note :q to close undo the commited work
+git reverts -n commit id   it commit the changes
+
+git reset --hard commit id =to go to any previous time stemp in code
+
+=======branches in git========
+git branch = list branches
+git branch branch name =to create branch
+git checkout branch name =to change the working  branch
