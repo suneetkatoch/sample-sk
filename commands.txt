@@ -36,3 +36,8 @@ git reset --hard commit id =to go to any previous time stemp in code
 git branch = list branches
 git branch branch name =to create branch
 git checkout branch name =to change the working  branch
+
+//merge 2 branches//
+go to base branch in which you want to merge changes
+git merge branch_name=merge the 2 branches
+
